@@ -59,17 +59,11 @@ Pelo terminal/cm, executar os comandos:
               ```sh
                  $ docker start ContainerId
               ```
-           
-	      c) Manter o cliente aberto como como mostro na figura abaixo:
-        
-        ![MongoDb Client](https://github.com/pjdsant/skytest/blob/master/images/Mongo_ClientStart.png)
         
 5. Inicie o servidor node com o comando:
     ```sh
        $ node server.js
-    ```
-    ![Node start](https://github.com/pjdsant/skytest/blob/master/images/Node_ServerStart.png)    
-    
+    ```    
     
 6. Realizar testes utilizando o Postman, para isso criei uma collection e disponibilizei junto ao código fonte no git, procure por [Postman Collection](https://github.com/pjdsant/skytest/blob/master/postman/SkyUserApi.postman_collection.json)
 
