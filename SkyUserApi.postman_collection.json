@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "58b3c44c-86b0-48f6-af98-291137787c6f",
+		"name": "SkyUserApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nome\": \"Paulo Santos\",\n\t\"email\": \"pjdsant@gmail.com\",\n\t\"senha\": \"pjs123456\",\n\t\"telefones\": [\n\t\t{\n\t\t\t\"numero\": \"993947240\",\n\t\t\t\"ddd\": \"11\"\n\t\t}\n\t\t]\n}"
+				},
+				"url": {
+					"raw": "http://localhost:1973/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1973",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Signin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nome\": \"Paulo Santos\",\n\t\"email\": \"pjdsant@gmail.com\",\n\t\"senha\": \"pjs123456\",\n\t\"telefones\": [\n\t\t{\n\t\t\t\"numero\": \"993947240\",\n\t\t\t\"ddd\": \"11\"\n\t\t}\n\t\t]\n}"
+				},
+				"url": {
+					"raw": "http://localhost:1973/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1973",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request User By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
